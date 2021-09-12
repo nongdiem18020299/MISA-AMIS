@@ -1,0 +1,73 @@
+.header{
+    height: 48px;
+    max-width: 100%;
+    font-family:'notosans-semibold';
+    background-color: #ffffff;
+}
+
+.menu-icon{
+    line-height: 48px;
+    background: url('../../assets/Resource/img/Sprites.64af8f61.svg') no-repeat -843px -30px;
+	width: 24px;
+	height: 24px;
+    margin: 12px 10px;
+}
+
+.branch{
+    height: 100%;
+    /* width: 600px; */
+    width: 100%;
+}
+
+.branch-name{
+    padding-left: 10px;
+    height: 100%;    
+    line-height: 48px;
+    font-size: 14px;
+    font-weight: 600;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.drop-icon{
+    margin: 20px 10px;
+    background: url('../../assets/Resource/img/Sprites.64af8f61.svg') no-repeat -1129px -365px;
+	width: 14px;
+	height: 8px;
+}
+
+.header-right-side{
+    height: 100%;
+    width: 100%;
+
+    /* width: calc(100% - 644px); */
+    padding-right: 16px;
+}
+
+.notify-icon{
+    margin: 12px 10px;
+    background: url('../../assets/Resource/img/Sprites.64af8f61.svg') no-repeat -788px -30px;
+	width: 22px;
+	height: 24px;
+}
+
+.user-avt{
+    background: url('../../assets/Resource/img/Sprites.64af8f61.svg') no-repeat -352px -894px;
+	width: 32px;
+	height: 32px;
+    border-radius: 50%;
+    margin: 6px 10px;
+}
+
+.user-name{
+    height: 100%;
+    line-height: 48px;
+    font-size: 14px;
+}
+
+.drop-icon-user{
+    background: url('../../assets/Resource/img/Sprites.64af8f61.svg') no-repeat -467px -414px;
+	width: 10px;
+	height: 6px;
+    margin: 22px 4px;
+}

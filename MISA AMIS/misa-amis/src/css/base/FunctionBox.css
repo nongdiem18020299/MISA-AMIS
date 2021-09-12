@@ -1,0 +1,76 @@
+.func-box-tagname {
+  font-family: "notosans-semibold";
+  font-size: 13px;
+  color: #0075c0;
+  width: 100%;
+  text-align: center;
+}
+.dropdown-icon {
+  background: url("../../assets/Resource/img/Sprites.64af8f61.svg") no-repeat -894px -359px;
+  width: 36px;
+  height: 18px;
+  cursor: pointer;
+}
+
+.show-border{
+  border: 1px solid #0075c0;
+}
+
+.function-box {
+  /* content: ""; */
+  z-index: 3;
+  /* position: absolute; */
+  /* width: 100%; */
+  position: relative;
+  /* overflow-y: auto; */
+}
+
+.func-box-tag {
+  /* height: 36px; */
+  width: 80%;
+  align-self: center;
+  position: relative;
+}
+
+.dropdown-select-list {
+  /* position: relative; */
+  /* position: sticky; */
+  font-family: "notosans-regular";
+  font-size: 13px;
+  position: absolute;
+  z-index: 99;
+  /* height: 1px; */
+  top: 100px;
+  right: -70px;
+  /* right: 0px; */
+  display: block;
+  transform: translate(-100%);
+  transition: opacity 0.25s, transform 0.25s, width 0.3s ease;
+}
+
+.list {
+  z-index: 3000;
+  background: #fff !important;
+  padding: 2px 1px;
+  border-radius: 2px;
+  border: 1px solid #babec5;
+}
+
+.list > li {
+  /* position: absolute; */
+  font-size: 13px;
+  width: 100%;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  list-style: none;
+  background: inherit !important;
+  color: inherit !important;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  padding: 5px;
+}
+
+.list li:hover {
+  color: #2ca01c !important;
+  background-color: #f4f5f8 !important;
+}

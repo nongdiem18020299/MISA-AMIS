@@ -1,0 +1,15 @@
+#Employee-layout{
+    /* width: 100%; */
+    flex: 1;
+    min-width: 0;
+    /* z-index: -1; */
+    background-color: #f4f5f8;
+    /* position: relative; */
+}
+
+.employee-container{
+    /* position: relative; */
+    /* display: flex;
+    flex-direction: column; */
+    height: calc(100vh - 48px);
+}

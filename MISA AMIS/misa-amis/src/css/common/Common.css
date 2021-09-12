@@ -1,0 +1,46 @@
+
+.d-flex{
+    display: flex;
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+.right-side{
+    width: 100%;
+    justify-content:flex-end;
+}
+
+.left-side{
+    width: 100%;
+    justify-content: flex-start;
+}
+
+.hidden{
+    display: none;
+}
+
+.align-center{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+    /* vertical-align: middle; */
+}
+.align-left{
+    text-align: left;
+    align-items: left;
+}
+.align-right{
+    text-align: right;
+    align-items: right;
+}
+
+.border-red{
+    border: 1px solid rgb(255, 0, 0) !important;
+}
+
+.border-green{
+    border: 1px solid #2ca01c !important;
+}

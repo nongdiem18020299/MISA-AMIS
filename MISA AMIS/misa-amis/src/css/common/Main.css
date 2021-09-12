@@ -1,0 +1,25 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+@font-face {
+    font-family:'notosans-regular';
+    src: url('../../assets/Resource/fonts/notosans-regular.2cb88a13.woff2');
+}
+@font-face {
+    font-family:'notosans-bold';
+    src: url('../../assets/Resource/fonts/notosans-bold.3ede5aff.woff2');
+}
+@font-face {
+    font-family:'notosans-italic';
+    src: url('../../assets/Resource/fonts/notosans-italic.1c1aaac9.woff2');
+}
+@font-face {
+    font-family:'notosans-semibold';
+    src: url('../../assets/Resource/fonts/notosans-semibold.df3e6dc4.woff2');
+}
+
+@import '../tooltip/Tooltip.css';

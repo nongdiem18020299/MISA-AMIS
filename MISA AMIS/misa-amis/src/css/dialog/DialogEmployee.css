@@ -1,0 +1,228 @@
+.dialog-container{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,.4);
+    z-index: 201;
+    justify-content: center;
+    align-items: center;
+}
+
+.dialog-employee{
+    width: 900px;
+    height: 625px;
+    background-color: #fff;
+    z-index: 202;
+    font-family:'notosans-regular';
+    border-radius: 5px;
+}
+
+.dialog-header{
+    position: relative;
+    width: 100%;
+    /* justify-content: space-between; */
+    align-items: center;
+    /* background-color: aquamarine; */
+    border-radius: 5px 5px 0 0;
+
+}
+
+.dialog-header-title{
+    font-family:'notosans-bold';
+    font-size: 24px;
+    padding: 20px 32px 20px 32px;
+}
+
+.dialog-header-select{
+    /* vertical-align:middle; */
+    justify-content: flex-start;
+}
+
+.select-item{
+    align-items: center;
+    margin-right: 16px;
+}
+
+.item-label{
+    font-size: 13px;
+    margin-left: 8px;
+}
+
+.form-item-checkbox >.item-label{
+    margin-right: 16px;
+}
+
+
+
+
+.dialog-header-icon{
+    /* width: 100%; */
+    justify-content: flex-end;
+    position: absolute;
+    top: 8px;
+    right: 16px;
+}
+
+.icon-info{
+    background: url('../../assets/Resource/img/Sprites.64af8f61.svg') no-repeat;
+    cursor: pointer;
+    background-position: -89px -144px;
+    width: 24px;
+    height: 24px;
+    min-width: 24px;
+    min-height: 24px;
+}
+.icon-close{
+    background: url('../../assets/Resource/img/Sprites.64af8f61.svg') no-repeat;
+    cursor: pointer;
+    background-position: -144px -144px;
+    width: 24px;
+    height: 24px;
+    min-width: 24px;
+    min-height: 24px;
+    margin-left: 8px;
+}
+
+/*phần form*/
+
+#employee-form{
+    width: 100%;
+    height: calc(100% - 72.8px);
+    border-radius: 0 0 5px 5px;
+    font-family:'notosans-regular';
+    padding: 0 32px 20px 32px;
+}
+
+.group-top, .group-bottom{
+    width: 100%;
+    /* margin: 0px 16px; */
+    /* background-color: bisque; */
+    padding-bottom: 20px;
+}
+
+.group-top-left{
+    width: 100%;
+    padding-right: 26px;
+    flex-wrap: wrap;
+}
+
+.group-top-right{
+    width: 100%;
+    /* background-color: aquamarine; */
+}
+
+.form-item{
+    height: 52px;
+}
+
+.form-item-label{
+    font-family:'notosans-bold';
+    font-size: 13px;
+    padding-bottom: 4px;
+}
+
+.form-item-label >b{
+    color: red;
+}
+
+.form-item-input{
+    font-family:'notosans-regular';
+    font-size: 13px;
+    height: 32px;
+    color: inherit;
+    position: relative;
+    padding: 6px 10px;
+    border-radius: 2px;
+    border: 1px solid #babec5;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 6px 10px;
+}
+
+.form-item-input:hover{
+    outline: 1px solid #e2e2e2;
+}
+
+.form-item-checkbox{
+    font-family:'notosans-regular';
+    font-size: 13px;
+    height: 32px;
+    width: 100%;
+    align-items: center;
+}
+
+.form-row{
+    width: 100%;
+    /* justify-content: space-between; */
+    padding-bottom: 16px;
+}
+
+.pr6{
+    padding-right: 6px;
+}
+
+.pl6{
+    padding-left: 6px;
+}
+
+.form-2-5{
+    width: 40%;
+}
+
+.form-3-5{
+    width: 60%;
+}
+
+.form-footer{
+    width: 100%;
+    border-top: 1px solid #babec5;
+    height: 80px;
+    align-items: center;
+}
+
+.form-footer-green-btn{
+    padding-left: 12px;
+    padding-right: 12px;
+    height: 36px;
+    line-height: 36px;
+    background-color: #2ca01c;
+    border-radius: 2px;
+    color: #fff;
+    /* margin-right: 12px; */
+    font-size: 13px;
+    width: 120px;
+    text-align: center;
+}
+
+.form-footer-green-btn:focus{
+    background-color: #35BF22 !important;
+}
+.form-footer-green-btn:hover{
+    background-color: #35BF22 !important;
+}
+
+.form-footer-btn{
+    text-align: center;
+    border: #000000 1px solid;
+    width: 60px;
+    padding-left: 12px;
+    padding-right: 12px;
+    height: 36px;
+    line-height: 36px;
+    border-radius: 2px;
+    margin-right: 12px;
+    font-size: 13px;
+}
+
+.form-footer-btn:hover{
+    background-color: #989898 !important;
+}
+.form-footer-btn:focus{
+    background-color: #989898 !important;
+}
+
+.group-btn{
+    width: 100%;
+}
